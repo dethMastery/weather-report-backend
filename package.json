@@ -9,7 +9,8 @@
     "bash-color": "^0.0.4",
     "dotenv": "^16.3.1",
     "express": "^4.18.2",
-    "nodemon": "^3.0.1"
+    "nodemon": "^3.0.1",
+    "phin": "^3.7.0"
   },
   "scripts": {
     "start": "node main.js",

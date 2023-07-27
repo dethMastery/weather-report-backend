@@ -89,6 +89,11 @@ call-bind@^1.0.0:
     function-bind "^1.1.1"
     get-intrinsic "^1.0.2"
 
+centra@^2.6.0:
+  version "2.6.0"
+  resolved "https://registry.yarnpkg.com/centra/-/centra-2.6.0.tgz#79117998ee6908642258db263871381aa5d1204a"
+  integrity sha512-dgh+YleemrT8u85QL11Z6tYhegAs3MMxsaWAq/oXeAmYJ7VxL3SI9TZtnfaEvNDMAPolj25FXIb3S+HCI4wQaQ==
+
 chokidar@^3.5.2:
   version "3.5.3"
   resolved "https://registry.yarnpkg.com/chokidar/-/chokidar-3.5.3.tgz#1cf37c8707b932bd1af1ae22c0432e2acd1903bd"
@@ -463,6 +468,13 @@ path-to-regexp@0.1.7:
   version "0.1.7"
   resolved "https://registry.yarnpkg.com/path-to-regexp/-/path-to-regexp-0.1.7.tgz#df604178005f522f15eb4490e7247a1bfaa67f8c"
   integrity sha512-5DFkuoqlv1uYQKxy8omFBeJPQcdoE07Kv2sferDCrAq1ohOU+MSDswDIbnx3YAM60qIOnYa53wBhXW0EbMonrQ==
+
+phin@^3.7.0:
+  version "3.7.0"
+  resolved "https://registry.yarnpkg.com/phin/-/phin-3.7.0.tgz#eeeff7660408515d8cf0c6252901012d4ab7153b"
+  integrity sha512-DqnVNrpYhKGBZppNKprD+UJylMeEKOZxHgPB+ZP6mGzf3uA2uox4Ep9tUm+rUc8WLIdHT3HcAE4X8fhwQA9JKg==
+  dependencies:
+    centra "^2.6.0"
 
 picomatch@^2.0.4, picomatch@^2.2.1:
   version "2.3.1"
